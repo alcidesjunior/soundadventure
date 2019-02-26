@@ -19,6 +19,7 @@
 		1ACDC03A221C45ED00F9EFD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACDC038221C45ED00F9EFD2 /* LaunchScreen.storyboard */; };
 		1AF5AE35221F278E00084327 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5AE34221F278E00084327 /* Instrument.swift */; };
 		1AF5AE37221F347300084327 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5AE36221F347300084327 /* Ball.swift */; };
+		1AF8A25022242ABE00B3E73F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF8A24F22242ABE00B3E73F /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		1ACDC03B221C45ED00F9EFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AF5AE34221F278E00084327 /* Instrument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
 		1AF5AE36221F347300084327 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		1AF8A24F22242ABE00B3E73F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				1ACDC036221C45ED00F9EFD2 /* Assets.xcassets */,
 				1ACDC038221C45ED00F9EFD2 /* LaunchScreen.storyboard */,
 				1ACDC03B221C45ED00F9EFD2 /* Info.plist */,
+				1AF8A24F22242ABE00B3E73F /* Settings.swift */,
 			);
 			path = "Sound Adventure";
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				1ACDC030221C45EB00F9EFD2 /* GameScene.swift in Sources */,
 				1AF5AE35221F278E00084327 /* Instrument.swift in Sources */,
 				1AF5AE37221F347300084327 /* Ball.swift in Sources */,
+				1AF8A25022242ABE00B3E73F /* Settings.swift in Sources */,
 				1ACDC032221C45EB00F9EFD2 /* GameViewController.swift in Sources */,
 				1ACDC02A221C45EB00F9EFD2 /* AppDelegate.swift in Sources */,
 			);

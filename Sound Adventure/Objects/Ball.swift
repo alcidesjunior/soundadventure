@@ -42,7 +42,7 @@ class Ball{
         element.physicsBody?.contactTestBitMask = 1
         element.zRotation = self.zrotation!
         element.name = self.ballName!
-        
+//        element.physicsBody?.velocity
         return element
     }
 }
