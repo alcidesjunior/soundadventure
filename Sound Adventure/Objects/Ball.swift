@@ -31,7 +31,7 @@ class Ball{
     }
     func create()->SKShapeNode{
         let element = SKShapeNode(circleOfRadius: 10)
-        element.position = CGPoint(x: self.x! - self.magicNumberX! ,y: (self.y! + 100  ))
+        element.position = CGPoint(x: self.x ?? 100 ,y: self.y ?? 100)
         element.fillColor = self.color!
         element.physicsBody = SKPhysicsBody(circleOfRadius: 10)
         //setting configs to collision
@@ -42,7 +42,7 @@ class Ball{
         element.physicsBody?.contactTestBitMask = 1
         element.zRotation = self.zrotation!
         element.name = self.ballName!
-//        element.physicsBody?.velocity
+        
         return element
     }
 }

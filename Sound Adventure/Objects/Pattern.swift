@@ -14,13 +14,13 @@ class Pattern{
         
         let hihat1 = Instrument(instrumentName: name2, color: color, x: x, y: y, magicNumberX: magicNumber, zrotation: zrotation, width: width, height: heigth)
         
-        return [hihat1.create(), kik.create()]
+        return [ kik.create(), hihat1.create()]
     }
     static func hihatSnare(name1: String, name2: String, x:CGFloat, y: CGFloat, color: UIColor ,magicNumber: CGFloat, zrotation: CGFloat,width: CGFloat, heigth: CGFloat)->[SKShapeNode]{
         let snare = Instrument(instrumentName: name1, color: color, x: x, y: y, magicNumberX: magicNumber, zrotation: zrotation, width: width, height: heigth)
         
         let hihat1 = Instrument(instrumentName: name2, color: color, x: x, y: y, magicNumberX: magicNumber, zrotation: zrotation, width: width, height: heigth)
         
-        return [hihat1.create(), snare.create()]
+        return [ snare.create(), hihat1.create()]
     }
 }

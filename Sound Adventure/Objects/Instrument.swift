@@ -42,7 +42,10 @@ class Instrument{
         element.physicsBody?.contactTestBitMask = 2
         element.zRotation = self.zrotation!
         element.name = self.instrumentName!
+//        element.
         
         return element
     }
+    
+    
 }

@@ -13,5 +13,6 @@ struct Settings{
         struct Position{
             static let constantY = CGFloat(15)
         }
+        static let height = CGFloat(20)
     }
 }
